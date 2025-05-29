@@ -193,3 +193,48 @@ html {
     width: 50%;
   }
 }
+
+/* Skills and Education */
+#skills-education {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+#skills-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills-type {
+  margin-bottom: 20px;
+}
+#education-container {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+}
+.education-headline {
+  color: #00ffff;
+  font-weight: bold;
+  text-align: center;
+}
+.edu-degree {
+  font-size: 24px;
+}
+.edu-duration {
+  font-size: 14px;
+}
+@media screen and (min-width: 992px) {
+  #skills-education {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #skills-container,
+  #education-container {
+    width: 50%;
+  }
+  #education-container {
+    padding-top: 200px;
+  }
+}
