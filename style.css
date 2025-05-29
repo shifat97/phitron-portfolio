@@ -99,6 +99,10 @@ html {
 
   #hero > .info,
   .img {
+    width: 75%;
+  }
+
+  #hero > .img {
     width: 50%;
   }
 
