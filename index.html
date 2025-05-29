@@ -3,7 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar and Hamburger-->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container-fluid bg-color">
+          <img src="./images/logo.png" width="80" height="80" alt="" />
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <span class="navbar-text">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 cs-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Pricing</a>
+                </li>
+                <button class="resume">
+                  Resume <span><img src="./icons/download.svg" alt="" /></span>
+                </button>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Hero -->
+    <div class="h-48 bg-color"></div>
+    <section id="hero" class="bg-color text-white">
+      <!-- Information -->
+      <div class="info">
+        <h1 class="hero-title">HI !</h1>
+        <h1 class="hero-title">I'M GIAS UDDIN</h1>
+        <p class="hero-headline">
+          Web Developer || React Developer || Programmer
+        </p>
+        <p class="hero-summary">
+          I am an enthusiastic JavaScript developer with knowing some framework
+          for the frontend and the backend. I know Basic PHP and MySQL but
+          basically a MERN developer.
+        </p>
+      </div>
+      <!-- Image -->
+      <div class="img relative">
+        <img class="hero-img absolute" src="./images/gias.jpg" alt="" />
+      </div>
+      <div></div>
+    </section>
+    <!-- Portfolio -->
+    <!-- Skills and Education -->
+    <!-- Contact -->
+    <!-- Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
