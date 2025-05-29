@@ -3,12 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   background-color: #1a1a1a;
   padding: 10px;
 }
-
 @media screen and (min-width: 992px) {
   html {
     width: 992px;
@@ -17,15 +15,12 @@ html {
 }
 
 /* Universal styles */
-
 .h-48 {
   height: 48px;
 }
-
 .bg-color {
   background-color: #1a1a1a;
 }
-
 .text-white {
   color: white;
 }
@@ -35,7 +30,6 @@ html {
   background-color: #0dcaf0;
   padding: 7px 13px;
 }
-
 @media screen and (min-width: 992px) {
   .cs-nav {
     display: flex;
@@ -50,40 +44,32 @@ html {
   flex-direction: column;
   justify-content: space-between;
 }
-
 #hero > .info,
 .img {
   width: 100%;
 }
-
 #hero > .info {
   text-align: center;
 }
-
 #hero > .img {
   position: relative;
 }
-
 .hero-img {
   width: 100%;
 }
-
 .hero-title {
   color: #00ffff;
   font-weight: 700px;
   font-size: 40px;
 }
-
 .hero-headline {
   font-size: 20px;
   font-weight: 600px;
   margin-top: 10px;
 }
-
 .hero-summary {
   font-size: 16px;
 }
-
 .social-links {
   display: flex;
   gap: 20px;
@@ -91,65 +77,53 @@ html {
   justify-content: center;
   margin-bottom: 40px;
 }
-
 @media screen and (min-width: 992px) {
   #hero {
     flex-direction: row;
   }
-
   #hero > .info,
   .img {
     width: 75%;
   }
-
   #hero > .img {
     width: 50%;
   }
-
   #hero > .info {
     text-align: left;
   }
-
   .hero-title {
     font-size: 70px;
   }
-
   .hero-headline {
     font-size: 23px;
   }
-
   .hero-img {
     width: 298px;
     right: 0;
     position: absolute;
   }
-
   .social-links {
     justify-content: left;
   }
 }
 
 /* Portfolio */
-
 .port-heading {
   text-align: center;
   font-weight: 700px;
 }
-
 #project {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 .project-heading {
   color: #00ffff;
   font-size: 24px;
   font-weight: 700px;
   margin-top: 20px;
 }
-
 .project-ui {
   display: flex;
   flex-direction: column;
@@ -158,41 +132,33 @@ html {
   padding: 20px;
   border-radius: 5px;
 }
-
 .project-img {
   width: 100%;
 }
-
 .project-info {
   width: 100%;
 }
-
 .tech-stack {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
-
 .ts-item {
   background-color: #6c757d;
   border-radius: 5px;
   padding: 5px;
 }
-
 @media screen and (min-width: 992px) {
   .project-heading {
     font-size: 29px;
     margin-top: 0;
   }
-
   .project-ui {
     flex-direction: row;
   }
-
   .project-img {
     width: 50%;
   }
-
   .project-info {
     width: 50%;
   }
