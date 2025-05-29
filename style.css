@@ -30,14 +30,6 @@ html {
   color: white;
 }
 
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-
 /* Navbar */
 .resume {
   background-color: #0dcaf0;
@@ -114,5 +106,74 @@ html {
   .hero-img {
     width: 298px;
     right: 0;
+  }
+}
+
+/* Portfolio */
+
+.port-heading {
+  text-align: center;
+  font-weight: 700px;
+}
+
+#project {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-heading {
+  color: #00ffff;
+  font-size: 24px;
+  font-weight: 700px;
+  margin-top: 20px;
+}
+
+.project-ui {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-info {
+  width: 100%;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ts-item {
+  background-color: #6c757d;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .project-heading {
+    font-size: 29px;
+    margin-top: 0;
+  }
+
+  .project-ui {
+    flex-direction: row;
+  }
+
+  .project-img {
+    width: 50%;
+  }
+
+  .project-info {
+    width: 50%;
   }
 }
