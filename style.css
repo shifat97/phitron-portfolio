@@ -208,3 +208,51 @@ html {
     padding-top: 200px;
   }
 }
+
+/* Contact */
+.contact-heading {
+  text-align: center;
+  padding-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid gray;
+  box-shadow: 4px 4px 8px #808080;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+}
+input,
+textarea {
+  background-color: #1a1a1a;
+  border: 1px solid gray;
+  padding: 14px;
+}
+.form-btn {
+  background-color: #6c757d;
+  color: #00ffff;
+  padding: 15px 30px;
+  width: 50%;
+}
+@media screen and (min-width: 992px) {
+  form {
+    width: 60%;
+  }
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid gray;
+  padding: 88px 0;
+}
+footer > p {
+  text-align: center;
+}
+footer > .social-links {
+  margin-top: 30px;
+  justify-content: center;
+}
